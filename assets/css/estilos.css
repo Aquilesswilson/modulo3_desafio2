@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+/* body {
+  font-family: roboto;
+} */
+
+header {
+  display: flex;
+  flex-direction: column;
+  height: 50vh; 
+  width: 100%;
+}
+
+h1 {
+  color: #060874;
+  margin-bottom: 0px;
+}
+
+
+/* h1#titulo_iguana {
+  background-color: black;
+  width: auto;
+  height: 75px;
+  font-size: 50px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* Formato estandar para hacer imagen responsiva */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  width: 278pt;
+  height: 180pt;
+} 
+
+.img.logo {
+  width: 86pt;
+  height: 25pt;
+}
+.boxes {
+  /* min-height: 50vh; */
+  height: 241pt;
+  display: flex;
+  flex-direction: row;
+  /* gap: 16px;     */
+  background-color: #28A745;
+  align-items: center;
+
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.columna {
+  flex: 0 0 50%;
+  max-width: 50%;
+  box-sizing: border-box;
+
+}
+
+.columna.izquierda {
+  padding: 75px 50px 75px 150px;
+  /* padding: Arriba Derecha Abajo Izquierda*/
+}
+
+.columna.derecha {
+  padding: 45px 150px 66px 50px;
+
+}
+
+.boxes.caracteristicas {
+  background-color: #1E1A13;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.contenedor-columnas {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+
+.columna-3 {
+  flex: 0 0 33%; 
+  max-width: 33%;
+  padding: 16px; 
+   box-sizing: border-box;
+  color: white; 
+}
+.columna-3 img{
+  width: 100%;
+  height: 250px;
+  display: block;
+  object-fit: cover;
+}
+
+.columna-3 i {
+  font-size: 4rem;
+  margin-bottom: 16px;
+
+}
+
+
+h2 {
+  color: white;
+  margin: 20px;
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 16pt;
+
+}
+
+p {
+  /* background-color: black; */
+  color: #060874;
+  font-size: 1.2rem;
+  font-weight: 900;
+  letter-spacing: 0.5;
+  margin-bottom: 1rem;
+  /* 1rem = 16px */
+  text-align: left;
+
+}
+
+
+
+
+.text-center {
+  text-align: center;
+}
+
+footer {
+  background-color: white;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.footer a {
+  font-size: 16pt;
+  color: white;
+  text-decoration: none;
+  background-color: white;
+}
+
+
+
+
+
+body {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  /* Mis Datos */
+  
+  #apm-Section {
+    background-image: url("../img/apm.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+  
+  /* Problemas */
+  
+  #Problemas .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Contacto */
+  
+  #Contacto form label {
+    font-weight: 700;
+    color: #060874;
+  }
+  
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+     
+    }
+  
+    .navbar-brand{
+      width: 100px;
+      
+    }
+  
+  }
+  
